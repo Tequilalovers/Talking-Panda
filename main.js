@@ -93,7 +93,7 @@ const imageelement = document.getElementById('icon')
 function speak(text, lang) {
     return new Promise((resolve) => {
         const utterance = new SpeechSynthesisUtterance(text);
-        utterance.rate = 0.3;
+        utterance.rate = 0.5;
         utterance.lang = lang;
         utterance.onend = resolve;
         speechSynthesis.speak(utterance);
