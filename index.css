@@ -48,6 +48,33 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
 }
 
+.NextContainer1 {
+    grid-row: 4;
+    grid-column: 4;
+    border-radius: 50%;
+    background-color: rgb(161, 108, 98);
+    height: 90px;
+    width: 95px
+}
+
+.NextContainer2 {
+    grid-row: 4;
+    grid-column: 3;
+    border-radius: 50%;
+    background-color: rgb(161, 108, 98);
+    height: 90px;
+    width: 95px
+}
+
+.NextContainer3 {
+    grid-row: 4;
+    grid-column: 5;
+    border-radius: 50%;
+    background-color: rgb(161, 108, 98);
+    height: 90px;
+    width: 95px
+}
+
 
 .text {
     grid-column: 2/ span 2;
